@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+
+
+<mapper namespace="com.s355504.androidserverbackend.mapper.AdVersionMapper">
+
+
+    <resultMap id="BaseResultMap" type="com.s355504.androidserverbackend.entity.User">
+        <result column="id" jdbcType="INTEGER" property="id" />
+        <result column="version" jdbcType="VARCHAR" property="version" />
+        <result column="bsw" jdbcType="VARCHAR" property="bsw" />
+        <result column="bsw_branch" jdbcType="INTEGER" property="bsw_branch" />
+        <result column="bsw_modify" jdbcType="VARCHAR" property="bsw_modify" />
+        <result column="asw" jdbcType="VARCHAR" property="asw" />
+        <result column="asw_branch" jdbcType="VARCHAR" property="asw_branch" />
+        <result column="asw_modify" jdbcType="VARCHAR" property="asw_modify" />
+        <result column="dcm" jdbcType="VARCHAR" property="dcm" />
+        <result column="dcm_modify" jdbcType="VARCHAR" property="dcm_modify" />
+        <result column="dcm_files" jdbcType="VARCHAR" property="dcm_files" />
+
+    </resultMap>
+
+<!--    <select id="AdVersionMapper" resultMap="BaseResultMap">-->
+
+<!--     select * from version_info where-->
+<!--       -->
+<!--    </select>-->
+
+
+</mapper>
+
+

@@ -62,8 +62,8 @@ public class LoginController {
 //    }
     @RequestMapping("/getAll")
           public  List<User> getALlUserInfo(){
-        System.out.println(i);
-        i++;
+
+
             return  loginService.getAllUserInfo();
 
             }
